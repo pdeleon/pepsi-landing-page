@@ -294,10 +294,27 @@ body {
 
 }
 @media only screen and (max-width: 482px){
-
+    .content__heading {
+        font-size: 4.5rem;
+    }
+    
+    .large-txt {
+        font-size: 9rem;
+    }
 }
-@media only screen and (max-width: 352px){
+@media only screen and (max-width: 357px){
+    .content__heading {
+        font-size: 3rem;
+    }
+    
+    .large-txt {
+        font-size: 6rem;
+    }
 
+    .content__message {
+        text-align: center;
+        padding-top: 1.5rem;
+    }
 }
 @media only screen and (max-width: 321px){
 
