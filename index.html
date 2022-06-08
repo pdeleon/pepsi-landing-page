@@ -8,14 +8,32 @@
     <!-- Sets site to viewport with -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- END GOOGLE FONTS -->
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="./assets/css/all.css">
+    <!-- END FONT AWESOME -->
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+<body id="pepsiBody" class="blue-background">
 
 <header class="header">
-    <div class="logo"><img src="assets/img/pepsi/pepsi-logo.png" alt=""></div>
-    <nav class="nav">
+    <div class="container">
+        <div class="logo"><img class="logo-img" src="./assets/img/pepsi/pepsi-logo.png" alt=""></div>
+
+        <div class="hamburger" id="hamburger">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+    
+    
+
+    <nav id="nav" class="nav">
         <a href="#">Home</a>
         <a href="#">Products</a>
         <a href="#">What's New</a>
@@ -24,6 +42,27 @@
     </nav>
 </header>
 
+<main class="main">
+    <div class="content">
+        <h2 class="content__heading">that's what<br> <span class="large-txt">i want</span></h2>
+        <p class="content__message">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid eum doloremque possimus voluptatum voluptas minima provident beatae, ea cumque tenetur alias animi exercitationem, id quibusdam rerum incidunt explicabo nisi.</p>
+        <div class="button-blue">view all products</div>
+    </div>
+    <div class="img-container">
+        <img id="pepsi-main-img" src="./assets/img/pepsi/pepsi-pepsi001.png" alt="">
+        <div class="img-container__social-icons">
+            <a href"#"><i class="fa-brands fa-facebook"></i></a>
+            <a href"#"><i class="fa-brands fa-twitter"></i></a>
+            <a href"#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </div>
+</main>
+
+<div class="img-selector-container">
+    <img id="pepsi001" src="./assets/img/pepsi/pepsi-pepsi001.png" alt="">
+    <img id="pepsi002" src="./assets/img/pepsi/pepsi-pepsi002.png" alt="">
+    <img id="pepsi003" src="./assets/img/pepsi/pepsi-pepsi003.png" alt="">
+</div>
 
 
 
