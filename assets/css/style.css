@@ -46,11 +46,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
 }
 
 .logo-img {
-    max-width: 7.5rem;
+    width: fit-content;
+    max-width: 7rem;
 }
 
 .hamburger {
@@ -247,6 +247,10 @@ body {
     }
     .header {
         flex-direction: column;
+    }
+
+    .header .container {
+        width: 100%;
     }
 
     .hamburger {
