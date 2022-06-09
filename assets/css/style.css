@@ -242,6 +242,11 @@ body {
     
 }
 @media only screen and (max-width: 769px){
+
+    body {
+        padding: 3.5rem 1rem;
+    }
+
     .main {
         flex-direction: column;
     }
@@ -291,9 +296,17 @@ body {
     }
 }
 @media only screen and (max-width: 576px){
+    body {
+        padding: 3.5rem 2rem;
+    }
 
 }
 @media only screen and (max-width: 482px){
+
+    .img-container img {
+        max-height: 30rem;
+    }
+
     .content__heading {
         font-size: 4.5rem;
     }
