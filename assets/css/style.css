@@ -113,7 +113,7 @@ body {
 }
 
 .button-blue {
-    border: 1px solid #333;
+    /*border: 1px solid #333;*/
     width: fit-content;
     font-size: 1.8rem;
     margin-top: 2rem;
@@ -123,10 +123,12 @@ body {
     color: #000;
     text-transform:uppercase;
     font-weight: 600;
+    transition: scale 300ms;
 }
 
 .button-blue:hover {
     cursor: pointer;
+    scale: 1.15;
 }
 
 .button-red {
